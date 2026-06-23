@@ -24,18 +24,3 @@ The platform is built using a modern architecture to ensure high performance and
 *   **Frontend:** Blade Templates, Tailwind CSS / Bootstrap, JavaScript
 
 ---
-
-## 📂 Project Architecture
-
-The project follows Laravel's MVC pattern, keeping the codebase clean, scalable, and easy to maintain:
-
-*   **`Models`:** Manages core relational database logic such as `Trip`, `Booking`, and `User`.
-*   **`Controllers`:** Contains the core business logic for handling trip availability, price calculations, and admin management actions.
-*   **`Migrations`:** Database schema definitions crafted to store trip-specific data (prices, duration, itineraries) and booking records.
-*   **`Views (Blade)`:** Dynamic UI templates for the trip marketplace, itinerary details, booking confirmations, and the administration panel.
-
----
-
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).
